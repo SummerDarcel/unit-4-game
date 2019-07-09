@@ -15,7 +15,6 @@ $( document ).ready(function(){
 	var playerTotal= 0; 
 	var wins= 0;
 	var losses = 0;
-	
   
   $('#wins').text(wins);
 	$('#losses').text(losses);
@@ -99,6 +98,7 @@ $( document ).ready(function(){
 			loser();
 		  }
 	});   
+	//play again reset
 	$(".btn").on("click", function(){
 		reset();
 		$('#winorLose').text('');
