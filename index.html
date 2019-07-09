@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-   <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <title>Crystal Collector</title>
 </head>
 <body>
@@ -23,36 +22,34 @@
                     <div class="row">
                       <div class="col-md-12 instructions">
                         <h2>Instructions</h2> 
+                        <br>
                         <p>You will be given a random number at the start of the game.</p>
                         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
                         <p>You win the game by matching your total score to the random number. You lost the game if your total score goes above the random number.</p>
                         <p>The value of each crystal is hidden from you until you click on it.</p>
                       </div>
                     </div>
-            
+            <br>
                 <div class="row">
                   <div class="col-md-9">
                     <h2>Score to match: <span id="scoreToMatch"></span></h2>
                   </div>
+                  
                 <div class="col-md-3">
                     <h3>Wins: <span id="wins"></span></h3>
                     <h3 class="text-left">Losses: <span id="losses"></span></h3>
                   </div>
                 </div>
             
-                  <div class="row text-center">
-                    <div class="col-md-3">
-                    <img src="assets/images/redCrystal.jpeg" class="img-thumnail red" alt="Red Crystal" width="200" height="200" />
-                    </div>
-                    <div class="col-md-3">
-                    <img src="assets/images/sapphire.jpg" class="img-thumbnail blue" alt="Blue Crystal" width="200" height="200" />
-                    </div>
-                    <div class="col-md-3">
-                    <img src="assets/images/yellow-sapphire.jpg" class="img-thumnail yellow" alt="Yellow Crystal" width="200" height="200" />
-                    </div>
-                    <div class="col-md-3">
-                      <img src="assets/images/emerald.jpg" class="img-thumnail green" alt="Green Crystal" width="200" height="200" />
-                    </div>
+                  <div class="crystals">
+                    <img src="assets/images/redCrystal.jpeg" class="img-thumnail red" alt="Red Crystal" width="100" height="80" />
+                   
+                    <img src="assets/images/sapphire.jpg" class="img-thumbnail blue" alt="Blue Crystal" width="100" height="100" border-style="none"/>
+                    
+                    <img src="assets/images/yellow-sapphire.jpg" class="img-thumnail yellow" alt="Yellow Crystal" width="100" height="100" />
+                    
+                      <img src="assets/images/emerald.jpg" class="img-thumnail green" alt="Green Crystal" width="100" height="100" />
+                   
                   </div>
             
                 <div class="row">

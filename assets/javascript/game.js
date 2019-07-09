@@ -46,7 +46,7 @@ $( document ).ready(function(){
 	$('#losses').text(losses);
 	reset()
   }
-  // Clicking crystals
+  // Clicking crystals .on('click', function(){}
 	$('.red').on ('click', function(){
 	  playerTotal = playerTotal + num1;
 	  console.log("New playerTotal= " + playerTotal);
