@@ -60,7 +60,7 @@ $( document ).ready(function(){
 		  if (playerTotal == Random){
 			youWin();
 		  }
-		  else if ( playerTotal > Random){
+		  else if (playerTotal > Random){
 			loser();
 		  }   
 	})  
@@ -71,7 +71,7 @@ $( document ).ready(function(){
 		  if (playerTotal == Random){
 			youWin();
 		  }
-		  else if ( playerTotal > Random){
+		  else if (playerTotal > Random){
 			loser();
 		  } 
 	})  
@@ -95,7 +95,7 @@ $( document ).ready(function(){
 			if (playerTotal == Random){
 			youWin();
 		  }
-		  else if ( playerTotal > Random){
+		  else if (playerTotal > Random){
 			loser();
 		  }
 	});   
